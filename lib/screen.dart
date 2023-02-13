@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 
-class Screen10 extends StatefulWidget {
-  const Screen10({Key? key}) : super(key: key);
+class ten extends StatefulWidget {
+  const ten({Key? key}) : super(key: key);
 
   @override
-  State<Screen10> createState() => _Screen10State();
+  State<ten> createState() => _tenState();
 }
 
-class _Screen10State extends State<Screen10> {
+class _tenState extends State<ten> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        backgroundColor: Colors.brown.shade900,
+        backgroundColor: Colors.black,
         body: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
@@ -48,7 +48,7 @@ class _Screen10State extends State<Screen10> {
                     ),
                   ),
                   child: Text("Enter Email",
-                      style: TextStyle(color: Colors.white, letterSpacing: 2)),
+                      style: TextStyle(color: Colors.white, letterSpacing: 0)),
                 ),
               ],
             ),
@@ -71,7 +71,7 @@ class _Screen10State extends State<Screen10> {
                     ),
                   ),
                   child: Text("Enter Password",
-                      style: TextStyle(color: Colors.white, letterSpacing: 2)),
+                      style: TextStyle(color: Colors.white, letterSpacing: 0)),
                 ),
               ],
             ),
@@ -90,8 +90,8 @@ class _Screen10State extends State<Screen10> {
               ),
               child: Text("Sign In", style: TextStyle(color: Colors.white,letterSpacing: 2),),
             ),
-            SizedBox(height: 10),
-            Text("Don't have an account? Sign Up",style: TextStyle(color: Colors.white70),),
+            SizedBox(height: 50,),
+            Text("Don't have an account? Sign Up",style: TextStyle(color: Colors.white),),
           ],
         ),
       ),
